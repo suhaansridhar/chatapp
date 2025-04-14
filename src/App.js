@@ -2,6 +2,7 @@ import TitleBar from "./components/TitleBar";
 import { Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import SignUpFire from "./pages/SignUpFire";
 
 export default function App(){
   return(
@@ -9,7 +10,7 @@ export default function App(){
       <TitleBar />
       <Routes>
         <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
+        <Route path="/signup" element={<SignUpFire />} />
       </Routes>
     </div>
   )
