@@ -1,0 +1,19 @@
+.signup--container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup--container--elements{
+    border: 0.1rem solid black;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.signup--items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
